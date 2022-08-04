@@ -26,7 +26,6 @@ toRegister = (
             FTOOLS_OT_ChangeDataName,
             FTOOLS_OT_DialogBox,
             CustomProperties
-
             )
 
 def register():
@@ -39,7 +38,3 @@ def unregister():
     del bpy.types.Scene.ftools
     for cls in toRegister:
         bpy.utils.unregister_class(cls)
-    
-
-
-

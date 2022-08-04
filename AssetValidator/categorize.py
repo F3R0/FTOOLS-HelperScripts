@@ -8,7 +8,6 @@ class FTOOLS_OT_Categorize(Operator):
   bl_description = "Move the objects in the scene to a proper collection according to their suffixes."
   
   def execute(self, context):
-  
     def messageBox(message = "", title = "Not found!", icon = 'ERROR'):
         def draw(self, context):
           self.layout.label(text=message)
@@ -106,12 +105,3 @@ class FTOOLS_OT_Categorize(Operator):
         linkObjToTargetColl(temp_high, target)
 
     return {'FINISHED'}
-
-
-
-
-
-
-
-
-

@@ -45,5 +45,3 @@ class FTOOLS_PT_Panel(Panel):
         col.operator("ftools.dialogbox",
                         text="Check Mesh",
                         icon="SEQ_STRIP_DUPLICATE")
-
-        

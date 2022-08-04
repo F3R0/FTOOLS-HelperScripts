@@ -8,5 +8,3 @@ class CustomProperties(bpy.types.PropertyGroup):
     gather_unc : bpy.props.BoolProperty(name="", default=True)
     check_unc : bpy.props.BoolProperty(name="", default=False)
     regex_pat : bpy.props.StringProperty(name= "", default="[A-Z][a-z]")
-
-    

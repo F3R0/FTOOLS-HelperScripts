@@ -18,13 +18,3 @@ class FTOOLS_OT_DialogBox(Operator):
   def invoke(self, context, event):
     
     return {'FINISHED'}
-
-
-
-
-
-
-
-  
-
-

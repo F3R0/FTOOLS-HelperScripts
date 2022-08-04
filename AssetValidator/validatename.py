@@ -48,20 +48,3 @@ def messageBox(message = "", title = "INVALID NAMING CONVENTION", icon = 'ERROR'
         self.layout.label(text=n)
         self.layout.separator()
     bpy.context.window_manager.popup_menu(draw, title = title, icon = icon)
-
-
-          
-
-
-
-
-
-
-
-
-
-
-
-
-
-
