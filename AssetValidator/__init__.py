@@ -3,7 +3,7 @@ bl_info = {
     "author": "F3R0",
     "description": "Asset validation tool",
     "version": (0, 3, 2),
-    "blender": (2,93,5),
+    "blender": (3,3,1),
     "location": "View3D",
     "warning": "",
     "doc_url": "",
